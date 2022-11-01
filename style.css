@@ -5,8 +5,8 @@
 
 }
 body{
-    width: 100%;
-    height: 180vh;
+    max-width: 100vw;
+    height: auto;
     background-image: url("images/jose-aljovin-JZMdGltAHMo-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@ body{
 .survey{
     margin: 2% 30%;
     width: 43%;
-    height: 180vh;
+    height: auto;
     color: white;
     font-family: 'Familjen Grotesk', sans-serif;
 }
@@ -42,21 +42,25 @@ body{
     padding: 15px;
 }
 #size{
-    width: 460px;
+    width: 35vw;
     height: 29px;
+    font-family: 'Familjen Grotesk', sans-serif;
 }
 #role{
-    width: 460px;
+    width: 35vw;
     height: 25px;
 }
 #option{
-    width: 460px;
+    width: 35vw;
     height: 25px;
 }
 #submit{
-width: 460px;
+width: 35vw;
 height: 40px;
 background-color: green;
 border: none;
 color: white;
+}
+#tarea{
+    width: 35vw;
 }
